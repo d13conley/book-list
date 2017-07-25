@@ -1,0 +1,13 @@
+<h2>Catalog ID: {{ vm.book.id }}</h2>
+
+<div class="list-books">
+    <ul>
+        <li>
+            <h3>{{ vm.book.title }}</h3><br>
+            <img ng-src="{{ vm.book.imageUrl }}" class="list-img" /><br><br>
+            Year: {{ vm.book.year }} || Author: {{ vm.book.author }}<br><br>
+            Summary: {{ vm.book.detail }}
+
+        </li>
+    </ul>
+</div>

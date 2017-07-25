@@ -1,0 +1,12 @@
+<h2>Welcome to the Master List</h2>
+
+<div class="list-books">
+    <ul>
+        <li ng-repeat="book in vm.books">
+            <a ui-sref="master-list({ id: book.id })">
+                {{ book.title }}<br>
+                <img ng-src="{{ book.imageUrl }}" class="home-img" /><br><br>
+            </a>
+        </li>
+    </ul>
+</div>

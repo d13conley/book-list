@@ -1,0 +1,23 @@
+body {
+    color: #000;
+    background-color:#FFF;
+}
+
+.navlink ul {
+    
+    list-style-type: none;
+}
+
+.list-books ul li {
+    
+    list-style-type: none;    
+}
+
+.home-img {
+   width: 8%;
+}
+
+.list-img {
+    width: 14%;
+}
+
